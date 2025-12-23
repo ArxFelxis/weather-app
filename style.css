@@ -96,6 +96,8 @@ body {
 
 #icon {
     display: none;
+    width: 9vw;
+    margin: 0 auto;
 }
 
 #container {
@@ -103,7 +105,29 @@ body {
     background-color: rgb(255 255 255 / 30%);
     backdrop-filter: blur(10px);
     max-width: 40vw;
-    height: 40vh;
+    height: fit-content;
     margin: 1rem auto;
-    padding: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#temp {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#temp-container {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#conditions {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.change-temp-format-btn {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
 }
